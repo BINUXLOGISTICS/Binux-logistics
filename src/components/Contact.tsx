@@ -99,7 +99,18 @@ const Contact = () => {
                 </Box>
                 <Box>
                   <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Email</Typography>
-                  <Typography variant="body2" color="text.secondary">binuxlogisticsentrepreneur@gmail.com</Typography>
+                  <Typography 
+                    variant="body2" 
+                    component="a" 
+                    href="mailto:binuxlogisticsentrepreneur@gmail.com"
+                    sx={{ 
+                      color: 'text.secondary', 
+                      textDecoration: 'none',
+                      '&:hover': { textDecoration: 'underline', color: '#000' }
+                    }}
+                  >
+                    binuxlogisticsentrepreneur@gmail.com
+                  </Typography>
                 </Box>
               </Box>
 
