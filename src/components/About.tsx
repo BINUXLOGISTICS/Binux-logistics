@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, Container, Typography, Grid } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
 const About = () => {
@@ -25,7 +25,7 @@ const About = () => {
           
           <Grid container spacing={3} justifyContent="center">
             {['Global Network', 'Premium Service', '24/7 Support', 'Real-time Tracking'].map((item) => (
-              <Grid item xs={6} sm={3} key={item}>
+              <Grid size={{ xs: 6, sm: 3 }} key={item}>
                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <CheckCircleIcon sx={{ mr: 1, color: '#000' }} />
                   <Typography variant="body2" fontWeight="600">

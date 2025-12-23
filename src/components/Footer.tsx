@@ -1,13 +1,13 @@
-import { Box, Container, Typography, Grid, Link, IconButton } from '@mui/material';
+import { Box, Container, Typography, Link, IconButton } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import logoImage from '../assets/logo.png';
 
 const Footer = () => {
   return (
     <Box component="footer" sx={{ bgcolor: '#000000', color: 'white', py: 8 }}>
       <Container maxWidth="lg">
         <Grid container spacing={4}>
-          <Grid item xs={12} sm={4}>
+          <Grid size={{ xs: 12, sm: 4 }}>
             <Typography variant="h6" gutterBottom fontWeight="bold">
               Binux Logistics
             </Typography>
@@ -16,7 +16,7 @@ const Footer = () => {
               Connecting businesses with efficient transportation services.
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid size={{ xs: 12, sm: 4 }}>
             <Typography variant="h6" gutterBottom fontWeight="bold">
               Quick Links
             </Typography>
@@ -27,7 +27,7 @@ const Footer = () => {
               <Link href="#contact" color="inherit" underline="hover">Contact</Link>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid size={{ xs: 12, sm: 4 }}>
             <Typography variant="h6" gutterBottom fontWeight="bold">
               Follow Us
             </Typography>

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Box, Container, Typography, Collapse, IconButton } from '@mui/material';
+import { useState } from 'react';
+import { Box, Container, Typography, Collapse } from '@mui/material';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import InventoryIcon from '@mui/icons-material/Inventory';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';

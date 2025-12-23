@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Container, Typography, Button, Stack } from '@mui/material';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 

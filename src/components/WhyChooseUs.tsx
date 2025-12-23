@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import SpeedIcon from '@mui/icons-material/Speed';
 import SecurityIcon from '@mui/icons-material/Security';
